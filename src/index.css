@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+
+  /* PALETA DE COLORES - SLEEK INTERFACE */
+  --color-brand-bg: #efe7dd;       /* Fondo industrial cálido */
+  --color-brand-dark: #545454;     /* Gris industrial oscuro */
+  --color-brand-earth: #827b72;    /* Tono tierra cálido */
+  --color-brand-accent: #ff5750;   /* Color de acento (Nombre/Botones) */
+  
+  /* SOMBRAS INDUSTRIALES */
+  --shadow-industrial: 4px 4px 0px rgba(84, 84, 84, 0.2);
+}
+
+/* ESTILOS GLOBALES BÁSICOS */
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-dark);
+}
+
+.neutral-border {
+  border-color: var(--color-brand-earth);
+}
+
+.industrial-shadow {
+  box-shadow: var(--shadow-industrial);
+}
+
+/* Suavizar el scroll al hacer clic en los enlaces del menú */
+html {
+  scroll-behavior: smooth;
+}
