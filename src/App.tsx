@@ -62,8 +62,8 @@ const CONFIGURACION = {
 
   // SECCIÓN CONTACTO
   contacto: {
-    whatsappLink: "https://api.whatsapp.com/send?phone=5493572401095&text=Hola!%20Deseo%20solicitar%20un%20presupuesto.",
-    telefonoDisplay: "54 9 3572 40-1095",
+    whatsappLink: "https://api.whatsapp.com/send?phone=5493572691173&text=Hola!%20Deseo%20solicitar%20un%20presupuesto.",
+    telefonoDisplay: "54 9 3572 69-1173",
     direccion: "Mendoza S/n, X5974 Laguna Larga, Córdoba.",
     redes: {
       instagram: "https://www.instagram.com/valinotti.muebles",
